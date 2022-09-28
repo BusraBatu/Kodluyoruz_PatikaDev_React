@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
-import Counter from './components/Counter.js';
+import App from './App';
+//import Counter from './components/Counter';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +10,7 @@ root.render(
   <React.StrictMode>
   { /*Practice 2 
   <Counter />*/}
+  <App/>
   </React.StrictMode>
 );
 
@@ -18,7 +19,7 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-{/*PRACTICE 1
+/*PRACTICE 1
  import getData from "./App.js";
 
-getData(1).then(data=>console.log(data));*/}
+getData(1).then(data=>console.log(data));*/

@@ -1,16 +1,16 @@
-import logo from "./logo.svg";
-import "./App.css";
 
+import "./App.css";
+import Contacts from "./components/Contacts";
 function App() {
   return (
     <div className="App">
-    
+    <Contacts/>
     </div>
   );
 }
 
 export default App;
-  {/*PRACTICE 1
+  /*PRACTICE 1
       
       import axios from "axios";
 
@@ -21,4 +21,4 @@ export default App;
 
   return {user, postData};
 }
-export default getData;*/}
+export default getData;*/

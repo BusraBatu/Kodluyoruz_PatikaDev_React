@@ -1,4 +1,4 @@
-{/*Practice 2 */}
+/*Practice 2 
 
 import React from 'react'
 import { useState } from 'react';
@@ -18,6 +18,7 @@ const Counter = () => {
         <button onClick={increase}>Increase</button>
     </div>
   )
-}
+  }
 
 export default Counter
+*/
