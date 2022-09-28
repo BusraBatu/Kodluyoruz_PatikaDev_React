@@ -1,10 +1,12 @@
 
 import "./App.css";
-import Contacts from "./components/Contacts";
+//import Contacts from "./components/Contacts";
+import Todo from "./components/Todo";
 function App() {
   return (
     <div className="App">
-    <Contacts/>
+    {/*<Contacts/>*/}
+    <Todo/>
     </div>
   );
 }
